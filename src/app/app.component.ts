@@ -8,4 +8,5 @@ import {  } from '../app/warning-message/warning-message';
 })
 export class AppComponent {
   title = ' My app';
+
 }
