@@ -22,16 +22,14 @@ person: any ={
     first: 'Jane',
     last: 'Doe'
   },
-  gender:'Helicopter'
+  gender:'f'
 };
 getInital(){
   if (this.person.gender ==' m'){
     return'mr.';
   }else if (this.person.gender =='f'){
     return'mrs.';
-  }else if( this.person.gender ==='H'){
-    return 'heli';
-  }else {
+  }else{
     return '';
   }
 }
