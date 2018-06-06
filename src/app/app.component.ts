@@ -16,13 +16,5 @@ this.message = message;
 
 }
 export class AppComponent {
-// People(){
-// function lastname(){
-//   if() = true{
-//     let male = 
-//   }
-// }
-
-// }
 
 }
