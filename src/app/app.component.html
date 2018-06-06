@@ -1,10 +1,11 @@
-<div class="row">
-    <div class="col-xs-15">
-        <header class ="Person-Details">
-           Name:<input class="firstname">
-           Last Name: <input class="lastname">
-           Gender:<input class="Gender">
-           City:
-        </header>
-    </div>
-</div>
+<h1>
+    {{heading}}
+</h1>
+<p>
+    Name: {{ getInitial() }} {{person.gender}} {{person.name.first}} {{Person.name.last}}
+    <br>
+    City: {{getAdress() }}
+</p>
+<!-- <p>
+    Name: {{person.gender ? person.gender === 'f' ? 'Mrs.' : 'Mr.' }} {{}}
+</p> -->

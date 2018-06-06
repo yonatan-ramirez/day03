@@ -16,13 +16,30 @@ this.message = message;
 
 }
 export class AppComponent {
-// People(){
-// function lastname(){
-//   if() = true{
-//     let male = 
-//   }
-// }
-
-// }
-
+heading: string ="Person Details";
+person: any ={
+  name:{
+    first: 'Jane',
+    last: 'Doe'
+  },
+  gender:'Helicopter'
+};
+getInital(){
+  if (this.person.gender ==' m'){
+    return'mr.';
+  }else if (this.person.gender =='f'){
+    return'mrs.';
+  }else if( this.person.gender ==='H'){
+    return 'heli';
+  }else {
+    return '';
+  }
+}
+getAddress(){
+  if(this.person.adress){
+    return this.person.adress;
+  }else {
+    return '';
+  }
+}
 }
